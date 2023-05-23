@@ -1,0 +1,81 @@
+/* Add application styles & imports to this file! */
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+  height: 100vh;
+}
+
+#spinner {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+
+mat-toolbar {
+  position: fixed;
+  min-height: 64px !important;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #333 !important;
+  box-shadow: 0 0 5px black;
+}
+
+.mat-toolbar-row {
+  height: 64px !important;
+}
+
+.app-icon-button {
+  font-size: 1.2em;
+  box-shadow: none;
+  user-select: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  filter: none;
+  font-weight: normal;
+  height: auto;
+  margin: 0;
+  min-width: 0;
+  padding: 0 14px 0 14px;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+}
+
+#toolbar-title {
+  font-size: 1.2em !important;
+  color: white;
+}
+
+.mat-drawer-container {
+  position: absolute !important;
+  top: 64px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: scroll;
+}
+
+.mat-drawer-content {
+  background: #111 !important;
+  padding: 25px;
+}
+
+.btn-bl {
+  color: #fff;
+  background-color: coral;
+  border-color: coral;
+}
+
+.btn-bl:hover {
+  color: #fff;
+  background-color: coral;
+  border-color: coral;
+}
+
+.btn-bl.focus, .btn-bl:focus {
+  color: #fff;
+  box-shadow: 0 0 0 .2rem rgba(255, 127, 80, .5);
+}
