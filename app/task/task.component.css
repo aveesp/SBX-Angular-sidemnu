@@ -1,3 +1,16 @@
 :host {
-  color: white;
+  color: #000;
+}
+.tab-container {
+  background-color: #fff;
+  border: solid 1px #eee;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.tab-container h2 {
+  padding: 0 10px;
+}
+table.table-inner {
+  border: solid 1px #000 !important;
 }
