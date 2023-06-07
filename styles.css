@@ -1,6 +1,6 @@
 /* Add application styles & imports to this file! */
 /* You can add global styles to this file, and also import other style files */
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
 body {
   height: 100vh;
@@ -59,12 +59,12 @@ mat-toolbar {
 }
 
 .mat-drawer-content {
-  background: #111 !important;
+  background: #d8d8d8 !important;
   padding: 25px;
 }
 
 .btn-bl {
-  color: #fff;
+  color: #000;
   background-color: coral;
   border-color: coral;
 }
@@ -75,7 +75,8 @@ mat-toolbar {
   border-color: coral;
 }
 
-.btn-bl.focus, .btn-bl:focus {
+.btn-bl.focus,
+.btn-bl:focus {
   color: #fff;
-  box-shadow: 0 0 0 .2rem rgba(255, 127, 80, .5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 127, 80, 0.5);
 }
