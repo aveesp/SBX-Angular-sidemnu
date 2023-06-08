@@ -19,3 +19,12 @@ table.table .thead-dark th {
   background: #eee;
   border: none;
 }
+.tab-container-cnt {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.loan-section {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
