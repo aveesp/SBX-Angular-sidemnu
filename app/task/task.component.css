@@ -4,7 +4,7 @@
 .tab-container {
   background-color: #fff;
   border: solid 1px #eee;
-  padding: 15px;
+  padding: 0;
   border-radius: 5px;
 }
 
@@ -14,3 +14,8 @@
 /* table.table-inner {
   border: solid 1px #000 !important;
 } */
+table.table .thead-dark th {
+  color: #000;
+  background: #eee;
+  border: none;
+}
