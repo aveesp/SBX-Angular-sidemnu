@@ -23,8 +23,17 @@ table.table .thead-dark th {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
+  grid-auto-rows: minmax(100px, auto);
 }
 .loan-section {
-  grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+.data-refresh {
+  grid-column: 3;
+  grid-row: 2;
+}
+.other-detail {
+  grid-column: 3;
+  grid-row: 2;
 }
