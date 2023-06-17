@@ -27,6 +27,14 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatTableModule } from '@angular/material/table';
 import { MatCardModule } from '@angular/material/card';
 
+import {
+  GridModule,
+  PDFModule,
+  ExcelModule,
+} from '@progress/kendo-angular-grid';
+import { ChartsModule } from '@progress/kendo-angular-charts';
+import { InputsModule } from '@progress/kendo-angular-inputs';
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -43,6 +51,11 @@ import { MatCardModule } from '@angular/material/card';
     MatCardModule,
     MatButtonModule,
     MatGridListModule,
+    GridModule,
+    ChartsModule,
+    InputsModule,
+    PDFModule,
+    ExcelModule,
   ],
   declarations: [
     AppComponent,
